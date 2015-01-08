@@ -1,0 +1,92 @@
+html, body {
+
+    background: rgb(216,216,216);
+    height: 100%;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.top-section {
+    width: 80%;
+    height: 25%;
+    margin: 0 auto;
+    position: relative;
+    background: white;
+}
+.p-padding {
+    padding: 10px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    margin: 15px;
+    color: white;
+}
+.flex {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+}
+.red {
+    background: rgb(208,2,27);
+}
+
+.blue {
+    background: rgb(74,144,226);
+}
+
+main {
+    display: flex;
+    width: 80%;
+    height: 55%;
+    margin: 20px auto;
+    flex-direction: column;
+    background: white;
+
+}
+
+.image {
+    height: 250px;
+    width: 100%;
+    background: url("http://images.sciencedaily.com/2014/06/140619210631-large.jpg");
+}
+
+.bottomText {
+    display: inline;
+}
+
+footer {
+    height: 10%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.black {
+    background: rgb(74,74,74);
+}
+
+.footerLinks {
+    height: 15px;
+    width: 50px;
+    color: white;
+    margin: 10px;
+
+}
+
+
+.flexbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+}
+
+
